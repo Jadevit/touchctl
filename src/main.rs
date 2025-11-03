@@ -9,6 +9,5 @@ mod tracker;
 
 fn main() -> anyhow::Result<()> {
     logging::init();
-    println!("touchctl daemon (stub). Use `touchctl --help` for commands.");
-    Ok(())
+    cli::run()
 }
