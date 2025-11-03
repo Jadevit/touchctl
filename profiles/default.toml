@@ -3,14 +3,14 @@ name = "default"
 allow_commands = false
 
 [thresholds]
-tap_ms = 150
+tap_ms = 200
 hold_ms = 350
-move_tol = 0.015
+move_tol = 0.025
 swipe_min_dist = 0.08
-swipe_max_ms = 450
+swipe_max_ms = 500
 pinch_sensitivity = 1.2
-pinch_step = 1.0
-smooth_ema = 0.25
+pinch_step = 0.4
+smooth_ema = 0.3
 
 [bindings]
 "two_finger.tap" = "mouse:right"
