@@ -1,0 +1,23 @@
+[meta]
+name = "default"
+allow_commands = false
+
+[thresholds]
+tap_ms = 150
+hold_ms = 350
+move_tol = 0.015
+swipe_min_dist = 0.08
+swipe_max_ms = 450
+pinch_sensitivity = 1.2
+pinch_step = 1.0
+smooth_ema = 0.25
+
+[bindings]
+two_finger.tap = "mouse:right"
+two_finger.swipe_up = "scroll:vertical@+1"
+two_finger.swipe_down = "scroll:vertical@-1"
+two_finger.swipe_left = "scroll:horizontal@-1"
+two_finger.swipe_right = "scroll:horizontal@+1"
+pinch.scale_in = "key:CTRL+MINUS"
+pinch.scale_out = "key:CTRL+EQUAL"
+three_finger.tap = "toggle"

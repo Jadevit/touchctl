@@ -1,0 +1,10 @@
+[Unit]
+Description=Touchctl gesture daemon
+
+[Service]
+ExecStart=%h/.local/bin/touchctl start
+Restart=on-failure
+Environment=RUST_LOG=info
+
+[Install]
+WantedBy=default.target
